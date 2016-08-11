@@ -69,7 +69,7 @@ contract User is mortal{
 
 
 	function unsubscribe(address _providerAddress){
-		if(services[_providerAddress.debt == 0]){
+		if(services[_providerAddress].debt == 0){
 			services[_providerAddress].active = false;
 
 			}else{

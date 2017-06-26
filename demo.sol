@@ -1,3 +1,5 @@
+pragma solidity ^0.4.0;
+
 contract mortal{
 
 	address public owner;
@@ -12,7 +14,7 @@ contract mortal{
 		if (msg.sender != owner){
 			throw;
 		}else{
-			_
+			_;
 		}
 	}
 
